@@ -153,7 +153,7 @@ func DataWriter(w http.ResponseWriter, r *http.Request) {
 		device.AddData(dataPayload)
 		w.Write([]byte("Data loaded!"))
 	}
-}ggo
+}
 
 // Function for get statistic by device
 // GET method allowed.

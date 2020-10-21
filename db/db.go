@@ -1,5 +1,12 @@
 package db
 
+// TODO Make this structure with sync.Mutex
+// Type Users struct {
+// mu *sync.Mutex
+// users map[]...
+// }
+//И для этой структуры методы new, get, store
+
 //'In-memory' storage
 var Users = map[string]*User{}
 
